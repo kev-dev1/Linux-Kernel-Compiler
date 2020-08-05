@@ -18,6 +18,6 @@ That's actually for Debian/Ubuntu-Distributions.
 
 I make in the future:
 
-[ ] For Arch-, Open Suse- and Red Hat-Distros
+- [ ] For Arch-, Open Suse- and Red Hat-Distros
 
-[ ] A self compiled as .deb package
+- [ ] A self compiled as .deb package
