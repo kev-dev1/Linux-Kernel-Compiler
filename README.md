@@ -20,4 +20,4 @@ I make in the future:
 
 - [ ] For Arch-, Open Suse- and Red Hat-Distros
 
-- [ ] A self compiled as .deb package
+- [X] A self compiled as .deb package
