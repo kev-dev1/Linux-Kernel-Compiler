@@ -7,16 +7,16 @@ sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-de
 clear
 
 # Create a Kernel Folder
-mkdir /$HOME/Kernel/
+mkdir ~/Kernel/
 
 # Go to the Folder
-cd /$HOME/Kernel/
+cd ~/Kernel/
 
 # Downloading the Kernel-source over git
 echo "Downloading Last Linux Kernel"
 echo ""
 git clone https://github.com/torvalds/linux.git
-cd /linux/
+cd ~/Kernel/linux/
 
 # Copy the last installed Kernel-source
 cp /boot/config-$(uname -r) .config
@@ -29,6 +29,6 @@ make && make modules_install && sudo make install
 
 # Kernelfolder remove from Homefolder
 cd ~/
-rm -r /Kernel/
+rm -r ~/Kernel/
 clear
 
