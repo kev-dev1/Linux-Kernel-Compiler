@@ -7,10 +7,10 @@ sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-de
 clear
 
 # Create a Kernel Folder
-mkdir /$HOME/Kernel/
+mkdir ~/Kernel/
 
 # Go to the Folder
-cd /$HOME/Kernel/
+cd ~/Kernel/
 
 # Downloading the Kernel-source over git
 echo "Downloading Last Linux Kernel"
@@ -29,5 +29,5 @@ make deb-pkg && sudo dpkg -i *.deb
 
 # Remove the Kernelfolder
 cd ~/
-rm -r /Kernel/
+rm -r ~/Kernel/
 clear
