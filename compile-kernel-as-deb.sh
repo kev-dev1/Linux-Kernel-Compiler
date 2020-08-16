@@ -26,8 +26,3 @@ make menuconfig
 
 # Kernel compile and install as deb
 make deb-pkg && sudo dpkg -i *.deb
-
-# Remove the Kernelfolder
-cd ~/
-rm -r ~/Kernel/
-clear
