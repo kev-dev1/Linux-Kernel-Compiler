@@ -26,9 +26,3 @@ make menuconfig
 
 # Kernel compiler
 make && make modules_install && sudo make install
-
-# Kernelfolder remove from Homefolder
-cd ~/
-rm -r ~/Kernel/
-clear
-
