@@ -15,7 +15,7 @@ cd ~/Kernel/
 # Downloading the Kernel-source over git
 echo "Downloading Last Linux Kernel"
 echo ""
-git clone https://github.com/torvalds/linux.git
+git clone https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git
 cd ~/Kernel/linux/
 
 # Copy the last installed Kernel-source
