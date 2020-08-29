@@ -19,5 +19,3 @@ That's actually for Debian/Ubuntu-Distributions.
 I make in the future:
 
 - [ ] For Arch-, Open Suse- and Red Hat-Distros
-
-- [X] A self compiled as .deb package
