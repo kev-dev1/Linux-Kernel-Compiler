@@ -1,8 +1,8 @@
-# Linux-Kernel-Compiler
+# Linux-Kernel-Compiler (Under Developing)
 
 EN:
 
-This is my first Project to compile a Linux Kernel without knowledge. 
+This is my first Project to compile a Linux Kernel without knowledge.
 This is for user, they want the lasted Linux kernel on your system.
 
 !!Warning!! "I not warranty that's brick or damage you Linux-system"
