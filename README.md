@@ -1,21 +1,30 @@
 # Linux-Kernel-Compiler (Under Developing)
 
-EN:
-
-This is my first Project to compile a Linux Kernel without knowledge.
+This is my first Project to compile a Linux Kernel automation.
 This is for user, they want the lasted Linux kernel on your system.
 
-!!Warning!! "I not warranty that's brick or damage you Linux-system"
+# How to Start?
+You can start the Script with:
+$ bash ./compiler-kernel.sh
 
-DE:
+After start downloaded this the last "Stable" Kernel from <a href="kernel.org">Kernel.org</a> and 
+copy the last Kernel configuration from your PC/Notebook. Later you come to the menuconfig, at this point,
+you can the Kernel configurate, build and installation get after safe the build.
 
-Das ist mein erstes Projekt zum Kompilieren eines Linux Kernel ohne Kenntnisse.
-Das ist für die Leute, die den aktuellsten Treiber oder Kernel möchten.
+# Build requirements
+About 10GB+ free space on Disk
+A faster CPU
+4GB+ Ram and/or a larger SWAP Partiton
 
-!!Achtung!! "Ich hafte für keine Schäden am Linux System. Nutzung auf eigene Gefahr!!!"
+# Distro requirements
 
-That's actually for Debian/Ubuntu-Distributions.
+# Debian/Ubuntu
+sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison -y
 
-I make in the future:
+# ArchLinux/Arch-based distros
+sudo pacman -S git fakeroot base-devel zx openssl-1.0 bison bcc bcc-tools flex libelf -y
 
-- [ ] For Arch-, Open Suse- and Red Hat-Distros
+
+# !!Warning!! "I not warranty that's brick or damage you Linux-system"
+
+<a href="https://www.kernel.org/doc/html/latest/index.html" title="Kernel Documentation">Linux Kernel Documentation</a>
