@@ -7,7 +7,7 @@ This is for user, they want the lasted Linux kernel on your system.
 You can start the Script with:
 $ bash ./compiler-kernel.sh
 
-After start downloaded this the last "Stable" Kernel from <a href="https://kernel.org">Kernel.org</a> and
+After start downloaded this the "Stable" or "Mainline" Kernel from <a href="https://kernel.org">Kernel.org</a> and
 copy the last Kernel configuration from your PC/Notebook. Later you come to the menuconfig, at this point,
 you can the Kernel configurate, build and installation get after safe the build.
 
