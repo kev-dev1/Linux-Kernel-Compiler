@@ -8,7 +8,12 @@ mkdir ~/Kernel/
 cd ~/Kernel/
 
 # Downloading the Kernel-source over git
-echo "Downloading Last Linux Kernel over git"
+echo "Do you want the (stable) Kernel or the (mainline) Kernel?"
+read kernel
+if [ $kernel == "stable"] then;
+
+git clone https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
+echo "Downloading stable Linux Kernel over git"
 echo ""
 git clone https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git
 cd ~/Kernel/linux/
