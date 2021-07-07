@@ -10,7 +10,7 @@ cd ~/Kernel/
 # Downloading the Kernel-source over git
 echo "Do you want the (stable) Kernel or the (mainline) Kernel?"
 read kernel
-if [[ condition ]]; then
+if [[ $kernel == "stable" ]]; then
   echo "Downloading stable Linux Kernel over git"
   echo ""
   git clone https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git
