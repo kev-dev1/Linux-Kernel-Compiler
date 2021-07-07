@@ -18,10 +18,10 @@ A faster CPU
 
 # Distro requirements
 
-# Debian/Ubuntu
+## Debian/Ubuntu
 sudo apt-get install git fakeroot build-essential ncurses-dev xz-utils libssl-dev bc flex libelf-dev bison -y
 
-# ArchLinux/Arch-based distros
+## ArchLinux/Arch-based distros
 sudo pacman -S git fakeroot base-devel zx openssl-1.0 bison bcc bcc-tools flex libelf -y
 
 
